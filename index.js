@@ -6,7 +6,7 @@ const Alexa = require('ask-sdk-core');
 const STREAMS = [
   {
     "token": "stream-RadioPatito",
-    "url": 'http://us5.internet-radio.com:8487/listen.pls',
+    "url": 'AQUI VA LA URL DE TU STREAM -PLS,MP3,M3U,HLS sobre HTTPS',
     "metadata" : {
       "title": "Radio Patito",
       "subtitle": "Oliver González",
