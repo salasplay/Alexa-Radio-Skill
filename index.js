@@ -94,7 +94,7 @@ const AboutIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'AboutIntent';
   },
   handle(handlerInput) {
-    const speechText = 'Esta skill reproduce una transmisión de audio cuando se inicia.grupo acir punto com punto eme equis';
+    const speechText = 'Esta skill reproduce una transmisión de audio cuando se inicia. no hay más que hacer.';
 
     return handlerInput.responseBuilder
       .speak(speechText)
